@@ -9,5 +9,6 @@
     <Grid>
         <Button x:Name="btn1" Content="1" HorizontalAlignment="Left" Margin="70,76,0,0" VerticalAlignment="Top" FontSize="72"/>
         <Button x:Name="btnStart" Content="Start" HorizontalAlignment="Left" Margin="211,32,0,0" VerticalAlignment="Top" FontSize="24" Click="btnStart_Click"/>
+        <Button x:Name="btnStop" Content="Stop" HorizontalAlignment="Left" Margin="211,90,0,0" VerticalAlignment="Top" FontSize="24" Click="btnStop_Click"/>
     </Grid>
 </Window>

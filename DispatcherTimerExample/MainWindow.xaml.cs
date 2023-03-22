@@ -28,7 +28,7 @@ namespace DispatcherTimerExample
         {
             InitializeComponent();
             timer = new DispatcherTimer();
-            timer.Interval = TimeSpan.FromSeconds(1);
+            timer.Interval = TimeSpan.FromMilliseconds(2000);
             timer.Tick += timer_Tick;
             state = false;
             counter = 1;
@@ -53,5 +53,9 @@ namespace DispatcherTimerExample
             btn1.Content = counter.ToString();
         }
 
+        private void btnStop_Click(object sender, RoutedEventArgs e)
+        {
+            timer.Stop();
+        }
     }
 }
